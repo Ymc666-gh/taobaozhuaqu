@@ -1,0 +1,31 @@
+{
+  "excel_path": "需要搜索的商品.xlsx",
+  "debug_port": 9222,
+  "edge_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "max_items_per_keyword": 60,
+  "scroll_times": 3,
+  "code_wait_seconds": 120,
+  "taobao": {
+    "phone": "15387768292"
+  },
+  "db": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "123456",
+    "database": "product_crawler",
+    "sms_database": "sms_receiver",
+    "charset": "utf8mb4",
+    "source": "taobao"
+  },
+  "email": {
+    "smtp_host": "smtp.qq.com",
+    "smtp_port": 465,
+    "sender": "2109540741@qq.com",
+    "auth_code": "nmckigfqeiprdgfe",
+    "to": "2109540741@qq.com",
+    "imap_host": "imap.qq.com",
+    "imap_port": 993,
+    "code_subject_keywords": ["淘宝登录验证码"]
+  }
+}

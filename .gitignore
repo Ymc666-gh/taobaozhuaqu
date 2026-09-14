@@ -1,0 +1,25 @@
+# 虚拟环境
+.venv/
+venv/
+
+# py缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE配置
+.idea/
+.vscode/
+
+# 打包输出
+dist/
+build/
+*.spec
+
+# 临时备份文件
+*~
+*.swp
+
+# 日志
+*.log
